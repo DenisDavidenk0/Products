@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { GOODS } from "../components/Goods";
 
 export const ProductContext = createContext({
@@ -6,6 +6,7 @@ export const ProductContext = createContext({
   pickedProducts: undefined,
 
   toogleProduct: () => undefined,
+  createProduct: () => undefined,
 });
 
 export const ProductProvider = ({ children }) => {

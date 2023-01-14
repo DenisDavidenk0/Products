@@ -10,6 +10,10 @@ function Product({ product }) {
     [pickedProducts, product]
   );
 
+  const handleClick = () => {
+    toogleProduct(product.id);
+  };
+
   return (
     <Col xs={12} sm={6} mb={4} lg={3} className={"mt-3 d-flex"}>
       <Card>
@@ -21,7 +25,7 @@ function Product({ product }) {
           <Card.Text>${product.price}</Card.Text>
           <Button
             variant={isPicked ? "success" : "danger"}
-            onClick={() => toogleProduct(product.id)}
+            onClick={handleClick}
           >
             {isPicked ? "Remove" : "Add"}
           </Button>
