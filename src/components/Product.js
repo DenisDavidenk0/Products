@@ -1,9 +1,15 @@
+import { useContext, useMemo } from "react";
 import { Card, Col, Button } from "react-bootstrap";
+import { ProductContext } from "../contexts/ProductContext";
 
-function Product({ product, addedToCart, removeToCart }) {
-  function handleClick() {
-    product.addedToCart ? removeToCart(product.id) : addedToCart(product.id);
-  }
+function Product({ product }) {
+  const { pickedProducts, toogleProduct } = useContext(ProductContext);
+
+  const isPicked = useMemo(
+    () => pickedProducts.includes(product.id),
+    [pickedProducts, product]
+  );
+
   return (
     <Col xs={12} sm={6} mb={4} lg={3} className={"mt-3 d-flex"}>
       <Card>
@@ -14,10 +20,10 @@ function Product({ product, addedToCart, removeToCart }) {
           </Card.Title>
           <Card.Text>${product.price}</Card.Text>
           <Button
-            variant={product.addedToCart ? "success" : "danger"}
-            onClick={handleClick}
+            variant={isPicked ? "success" : "danger"}
+            onClick={() => toogleProduct(product.id)}
           >
-            {product.addedToCart ? "Remove" : "Add"}
+            {isPicked ? "Remove" : "Add"}
           </Button>
         </Card.Body>
       </Card>
