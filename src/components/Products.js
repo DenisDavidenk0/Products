@@ -1,46 +1,29 @@
-import { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import Product from "./Product";
-import Basket from "./Basket";
-import { GOODS } from "./Goods";
+
+import { Outlet } from "react-router-dom";
+import { useContext } from "react";
+import { BasketContext } from "../context/BasketContext";
 
 function Products() {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    setProducts(GOODS);
-  }, []);
-
-  function addedToCart(id) {
-    setProducts(
-      products.map((product) => ({
-        ...product,
-        addedToCart: product.id === id ? true : product.addedToCart,
-      }))
-    );
-  }
-  function removeToCart(id) {
-    setProducts(
-      products.map((product) => ({
-        ...product,
-        addedToCart: product.id === id ? false : product.addedToCart,
-      }))
-    );
-  }
+  const { products, removeToCart } = useContext(BasketContext);
 
   return (
     <>
       <Container className="mx-auto">
+        <Row>
+          <Outlet context={products} />
+        </Row>
+
         <Row md={4}>
           {products.map((product) => (
             <Product
               key={product.id}
               product={product}
-              addedToCart={addedToCart}
-              removeToCart={removeToCart}
+              removeToCart={() => removeToCart(product.id)}
             />
           ))}
         </Row>
-        <Basket products={products.filter((product) => product.addedToCart)} />
       </Container>
     </>
   );

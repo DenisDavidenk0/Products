@@ -6,3 +6,9 @@
   right: 1rem;
   z-index: 3;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
+.header {
+  height: 4rem;
+}

@@ -1,0 +1,31 @@
+.img {
+  width: 300px;
+}
+
+.imgBasket {
+  height: 250px;
+  width: 250px;
+}
+.txtMontserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.txtRoboto {
+  font-family: "Roboto", sans-serif;
+}
+.sizeButton {
+  height: 60px;
+  width: 60px;
+  border: 1px solid #66666617;
+}
+.sizeButton:hover {
+  border: 1px solid black;
+}
+.sizeButton:focus {
+  border: 1px solid black;
+}
+
+.description {
+  line-height: 1.75;
+}
