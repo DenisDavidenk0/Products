@@ -14,10 +14,14 @@ function StaticBasket() {
             products={products.filter((product) => product.addedToCart)}
           />
         ) : (
-          <Card.Img
-            className="img"
-            src="https://xl-static.rozetka.com.ua/assets/img/design/modal-cart-dummy.svg"
-          />
+          <div className="text-center">
+            <Card.Img
+              className="img"
+              src="https://xl-static.rozetka.com.ua/assets/img/design/modal-cart-dummy.svg"
+            />
+            <h4 className="txtRoboto">Cart is empty</h4>
+            <h6>But it's never too late to fix it :)</h6>
+          </div>
         )}
       </Container>
     </>

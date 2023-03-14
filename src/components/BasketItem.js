@@ -9,6 +9,7 @@ function BasketItem({ product }) {
   function handleClick() {
     setProductRemuver(!productRemuver);
   }
+  console.log(product);
   return (
     <>
       <ListGroup.Item key={product.id}>
@@ -18,7 +19,8 @@ function BasketItem({ product }) {
 
           <h4 className="txtMontserrat my-3">
             <div>{product.brand}</div>
-            {product.model}
+            <div>{product.model}</div>
+            <div>{product?.size}</div>
           </h4>
           <h5 className="txtMontserrat">${product.price.toFixed(2)}</h5>
           <div>

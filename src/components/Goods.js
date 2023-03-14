@@ -14,6 +14,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -32,6 +38,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -50,6 +62,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -68,6 +86,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -86,6 +110,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -104,6 +134,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -122,6 +158,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -140,6 +182,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },
@@ -158,6 +206,12 @@ export const GOODS = [
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/04e05b7e-5904-4095-b3d9-414cb62c2db8/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
       "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4958a405-8f09-4cf9-b6c6-a56217291391/air-jordan-11-cmft-low-mens-shoes-HbCxnb.png",
     ],
+    dimensions: [
+      7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15, 17, 18,
+    ],
+    description: `Brilliant and bold, the Air Jordan 11 CMFT Low is inspired by one of MJ's most legendary sneakers. 
+    The lace loops and mud guard pull in distinct elements from the AJ11, while lightweight foam and Zoom Air cushioning make every step comfortable. 
+    And the padded collar and tongue give it a snug, plush feel you'll want to wear all day.`,
     addedToCart: false,
     count: 1,
   },

@@ -24,6 +24,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="/products" element={<Products />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contacts" element={<Contacts />} />
 
@@ -32,7 +33,6 @@ function App() {
           <Route path="/basket" element={<StaticBasket />} />
 
           <Route path="*" element={<NotFound />} />
-          <Route path="/products" element={<Products />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -9,6 +9,22 @@ function BasketProvider({ children }) {
   function hasProduct() {
     return !!products.filter((product) => product.addedToCart === true).length;
   }
+
+  function filterById(id) {
+    return products.filter((el) => el.id == id)[0];
+  }
+
+  function SizeSelection(productid, size) {
+    products.map((product) => {
+      if (productid == product.id) {
+        product.size = size;
+      }
+
+      return product;
+    });
+    setProducts([...products]);
+  }
+
   function addedToCart(id) {
     setProducts(
       products.map((product) => ({
@@ -52,6 +68,8 @@ function BasketProvider({ children }) {
         addCount,
         reduceCount,
         hasProduct,
+        filterById,
+        SizeSelection,
       }}
     >
       {children}

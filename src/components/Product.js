@@ -6,7 +6,8 @@ import { BasketContext } from "../context/BasketContext";
 function Product({ product }) {
   const { addedToCart, removeToCart } = useContext(BasketContext);
 
-  function handleClick() {
+  function handleClick(e) {
+    e.preventDefault();
     product.addedToCart ? removeToCart(product.id) : addedToCart(product.id);
   }
   return (
